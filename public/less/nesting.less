@@ -1,0 +1,424 @@
+@import 'variables';
+@import 'mixins';
+
+.login-col {
+	width:400px;
+	.mg(10% auto 0);
+	.b-radius(10px);
+	.bg(#fff);
+	.pd(20px 25px 25px);
+	p {
+	.mg(10px 0);
+	.fs(20px);
+	color:#657f90;
+	}
+}
+.login-form {
+	div {
+		.mg(7px 0);
+			.login-but {
+				.b-radius(20px);
+				.bg(#657F90);
+				.pd(5px 20px);
+				.fs(15px);
+				.colr(#fff);
+				.ft(right);
+				cursor:pointer;
+			}
+		a {
+			.colr(#657f90);
+		}
+		&:last-child {
+			.mg(15px 0 0);
+		}
+	}
+}
+.l-b-text {
+	.ta(center);
+	.colr(#fff);
+	.mg(20px 0);
+	.fs(17px);
+	a {
+		.fw(bold);
+		.colr(#fff);
+	}
+}
+.so-link-account {
+	.mg(8px 0 15px);
+	a {
+		.dis(inline-block);
+		.pd(5px 20px);
+		.colr(#657F90);
+		.b-radius(15px);
+		.fs(14px);
+		.fw(bold);
+		
+		&:hover {
+			.bg(#D8DFE3);
+		}
+		&.active {
+			.bg(#D8DFE3);
+		}
+	}
+}
+.left-cont {
+	span {
+		.mg(0 4%);
+		.dis(block);
+	}
+	h2 {
+		.mg(20px 0);
+		.fs(22px);
+	}
+}
+.categories {
+	.colr(#768389);
+	.no-pet {
+		.ta(center);
+		.mg(0 0 10px);
+		span {
+			.dis(block);
+			.mg(15px 65px 0);
+		}
+	}
+	a {
+		.colr(#768389);
+		&:hover {
+			.colr(#fff);
+		}
+	}
+}
+.cate-div {
+	.ht(350px);
+	.ovf(hidden);
+	.ovf-y(auto);
+}
+.setup-cate {
+	li {
+		.pos(relative);
+		&.active a {
+			.colr(#0EADB8);
+		}
+		.pd(0 0 35px 0);
+		.wd(100%);
+		.l-ht(45px);
+		.bg(url(../images/leftstrip.jpg) repeat-y 27px 0px);
+			span {
+				.ft(left);
+				.wd(55px);
+				.ta(left);
+				.mg(0 15px 0 0);
+			}
+			a {
+				.colr(#979EA1);
+			}
+		&:last-child {
+			.pd(0);
+		}
+		&:hover a {
+			.colr(#0EADB8);
+		}
+		.fa-check-circle-o {
+			.colr(#0eadb8);
+		}
+	}
+}
+.top-setting {
+	.mg(0 0 15px);
+	.top-setting-left {
+		.wd(70%);
+		.mg(0 0 25px);
+		.dis(inline-block);
+			.listing {
+				li { 
+					.mg(0 10px 0 0);
+					a {
+						.button;
+						.colr(#5f7c8d);
+						.bor(1px solid #fff);
+						&:hover {
+							.bg(#F4F6F7);
+							.bor(1px solid #b0bec6;)
+						}
+						&.active {
+							.bg(#F4F6F7);
+							.bor(1px solid #b0bec6;)
+						}
+					}
+				}
+			}
+
+	}
+	.top-setting-right {
+		.dis(inline-block);
+		.wd(28%);
+		.listing {
+			.ta(right);
+		}
+	}
+}
+a.button {
+		.colr(#fff);
+}
+a.button-l {
+		.colr(#fff);
+}
+.listing {
+	li { 
+		.dis(inline-block);
+		.mg(0 10px);
+		.ta(left);
+		a {
+			.colr(#5f7c8d);
+			&:hover {
+				.colr(#000);
+			}
+			&.active {
+				.colr(#000);
+			}
+		}
+	}
+}
+
+.col-right-50 {
+	.listing {
+		.ta(right);
+	}
+}
+.timeline-add-section {
+	.ta(center);
+	.mg(0 0 30px);
+	p {
+		.mg(15px 0);
+		img {
+			.opa(0.3);
+		}
+		i {
+			.opa(0.5);
+		}
+		big {
+			.colr(#5F7C8D);
+			.fs(25px);
+		}
+	}
+}
+
+.a-created {
+	ul {
+		li {
+			.bg(url(../images/strip-grey.jpg) no-repeat 28px 77px);
+			.ls(none);
+			.wd(100%);
+			.ft(left);
+			.mg(0);
+			.pd(10px 0 44px);
+			.a-cont {
+				span {
+					&.user-icon {
+						.pd(19px 22px 17px);
+						.b-radius(50%);
+						.dis(inline);
+						.colr(#fff);
+						.ft(left);
+						.mg(-7px 10px 0 0);
+							i {
+								.fs(30px);
+							}
+					}
+					&.user-text {
+						.dis(inline);
+						.l-ht(44px);
+						.hd {
+							.ft(left);
+						}
+					}
+					p {
+						.fs(16px);
+					}
+					.a-cont-da {
+						float:right;
+						.colr(#C7C7C7);
+						.fs(14px);
+						.fw(bold);
+					}
+				}
+			}
+			&:last-child {
+				.bg(none);
+			}
+		}
+	}
+}
+.page-hd2 {
+	&.m100 {
+		.mg(100px 0 15px);
+	}
+}
+
+.setup-prog {
+	.pos(absolute);
+	.bot(15px);
+	.ta(center);
+	.lef(0);
+	.rig(0);
+	progress {
+		.bg(#162830);
+		.bor(0);
+		.ht(22px);
+	}
+	a {
+		.colr(#68767D);
+	}
+}
+
+.s-steps {
+	ul {
+		li {
+			.dis(inline-block);
+			.mg(0 5px 0 0);
+			a {
+				.b-radius(50%);
+				.bg(#fff);
+				.bor(2px solid #0EADB8);
+				.dis(table-cell);
+				.colr(#0EADB8);
+				.fw(bold);
+				.ht(40px);
+				.wd(40px);
+				.ta(center);
+				vertical-align: middle;
+			&:hover {
+				.bg(#0EADB8);
+				.colr(#fff);
+					}
+			}
+		&.active a {
+				.bg(#0EADB8);
+				.colr(#fff);
+					}
+		}
+	}
+}
+.lock-col {
+	.b-radius(4px);
+	.bor(1px solid #cfcfcf);
+	.pd(20px 20px);
+	.mg(15px 0);
+	.lock-col-cont {
+		.wd(60%);
+		.ft(left);
+		.lock-col-img {
+			.dis(table-cell);
+			.wd(55px);
+			.bor(3px solid);
+			.v-al(middle);
+			.ta(center);
+			.b-radius(50%);
+			.ht(50px);
+			.fa {
+				.fs(32px);
+			}
+		}
+		.lock-col-text {
+			.dis(table-cell);
+			.pd(7px 0 0 20px);
+		}
+	}
+	.lock-col-but {
+		.wd(39%);
+		.ft(right);
+		.ta(right);
+		.mg(18px 0 0);
+	}
+}
+.user-cate {
+	li {
+		.pos(relative);
+		.wd(100%);
+		.bor-b(1px solid #14232b);
+		.mg(20px 0 0);
+		.pd(0 0 20px);
+		.user-img {
+			.wd(50px);
+			.ht(50px);
+			.ovf(hidden);
+			.b-radius(50%);
+			.ft(left);
+			.mg(0 10px 0 0);
+			img {
+				.wd(100%);
+				.ht(100%);
+			}
+		}
+		span {
+			.wd(100%);
+			.fs(14px);
+		}
+	}
+}
+.user-add {
+	.fs(16px);
+	.mg(25px 0 0);
+	.add-pet {
+		.ft(left);
+	}
+	.manage-pet {
+		.ft(right);
+	}
+	a {
+		.colr(#768389);
+		&:hover {
+			.colr(#fff);
+		}
+	}
+}
+.device-cate {
+	li {
+		.ls(none);
+		.bg(url(../images/leftstrip.jpg) repeat-y 27px 0px);
+		.mg(0 0 30px);
+		.wd(100%);
+		.ft(left);
+		span {
+			.wd(50px);
+			.ft(left);
+			.mg(0 20px 0 0);
+		}
+		ul {
+			.mg(0 0 0 20px);
+			li {
+				.bg(none);
+				.mg(15px 0 0 20px);
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

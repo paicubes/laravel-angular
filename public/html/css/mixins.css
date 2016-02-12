@@ -1,0 +1,11 @@
+.button {
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 15px;
+  color: #ffffff;
+  margin: 10px auto;
+}

@@ -1,0 +1,53 @@
+--------varibales--------
+
+.box {
+	color:@heading-color;
+}
+
+@heading-color:red;
+
+
+
+
+--------Nesting--------
+
+.heading {
+	color:000;
+	.sub-heading {
+		color:#ccc;
+	}
+}
+
+
+
+--------Mixins--------
+
+.parent { 
+	width:200px;
+	float:left;
+}
+
+.testimonial-col {
+	font-size:15px;
+	color:#000;
+	.parent
+}
+
+
+
+.buttton-small {width:100px}
+.button-text-s-size {font-size:12px}
+.button-s-color {color:#070707;}
+
+.small-but {
+	.buttton-small;
+	.button-text-s-size;
+	.button-s-color;
+}
+
+
+
+
+--------opreator--------
+
+.
